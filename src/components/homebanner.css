@@ -1,0 +1,159 @@
+body{
+  overflow-x: hidden;
+}
+
+  
+/* home banner */
+.home-banner{
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18rem;
+    overflow-x: hidden;
+}
+
+ h1{
+    font-size: 3.125rem;
+ }
+ h2{
+        font-size: 1.625rem;
+}
+
+   .our-story{
+        position: absolute;
+        color: white;
+        text-align: center;
+       top: 35%;
+       width: 600px;
+       left: calc(50% - 300px);
+        z-index: 1;
+    }
+
+    .input-group input{
+           
+              height: 54px;
+           padding: .2rem 1rem;
+               border-radius: 0;
+         }
+
+         button{
+                   font-size: 1.5rem;
+                   padding: .2rem 1.5rem;
+                   border: 0;
+                   height: 54px;
+                   font-weight: normal;
+                }
+        
+
+@media only screen and (max-width: 1024px){
+  
+
+
+
+    /* home banner */
+    .home-banner{
+        max-height: 100vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        max-width: 100%;
+        top: 0;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        /* padding-top: 18rem; */
+    }
+    
+
+       h1{
+           /* // font-size: 3.125rem; */
+           margin: 0 ;
+           margin-left: 22%;
+           width: 200px;
+           font-size: 2.5rem;
+           line-height: 3.1rem;
+           font-weight: bold;
+           letter-spacing: 1.1px;
+           /* // margin-bottom: 70px; */
+           text-align: center;
+           text-shadow: 0 3px 0 black;
+        }
+            h2{
+                 text-align: center;
+                 margin-top: 30px;
+                 font-size: 1.5rem;
+                 margin-right: 15%;
+                 /* margin: 40px 50px 0 50px; */
+                 text-shadow: 0 1px 0 black;
+                
+               }
+               p{
+                margin-left: 22%;
+                     width: 200px;
+                     font-size: 1.1rem;
+                     line-height: 1.8rem;
+                     /* // font-weight: bold; */
+                     letter-spacing: 1px;
+                     margin-bottom: 100px;
+                     text-align: center;
+                   }
+                   .our-story{
+                         position: absolute;
+                         color: white;
+                         text-align: center;
+                         top: 20%;
+                         
+                         padding-left: 20%;
+                         left: calc(50% - 300px);
+                         z-index: 1;
+                       }
+                       .input-group input{
+                       padding: .2rem 1rem;
+                         border-radius: 0;
+                         border-bottom: 3px solid rgb(246, 174, 7);
+                   }
+                   .input-group{
+                    max-width: 65%;
+                    margin-left: 10%;
+                    margin-right: 10%;
+                    max-height: 25%;
+                   }
+                   .input-group button{
+                    margin-top: 0;
+                    height: 55px;
+                   }
+
+    /* banner */
+    .banner{
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+    .banner__contents h1{
+      margin-left: 0;
+      font-size: 1.1rem;
+      padding-top: 0;
+      margin-top: 0;
+    }
+    .banner__title {
+      font-size: 3rem;
+      font-weight: 800;
+      margin-top: 0;
+    }
+    .banner__button {
+      border: none;
+      border-radius: 0.2vw;
+      cursor: pointer;
+      font-weight: 700;
+      margin-right: 1rem;
+      outline: none;
+      /* padding: 0.3rem 1rem; */
+      padding-top: 0;
+      margin-top: 0;
+    }
+    
+    
+}
